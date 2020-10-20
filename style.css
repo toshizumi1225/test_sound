@@ -1,11 +1,11 @@
 table.address {
-  font-size:0.8em;
-  margin: 0.125em 0 1.5em auto;
-  padding:0 0.25em 0 1.5em;
+  font-size:0.8em !important;
+  margin: 0.125em 0 1.5em auto !important;
+  padding:0 0.25em 0 1.5em !important;
 }
 table.address th{
-  display:inline-block;
-  width:8.25em;
+  display:inline-block !important;
+  width:8.25em !important;
 }
 table.address td{
   display:inline-block;
