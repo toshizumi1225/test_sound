@@ -1,0 +1,135 @@
+table.address {
+  font-size:0.8em;
+  margin: 0.125em 0 1.5em auto;
+  padding:0 0.25em 0 1.5em;
+}
+table.address th{
+  display:inline-block;
+  width:8.25em;
+}
+table.address td{
+  display:inline-block;
+  line-height:1.1em;
+  padding:0.125em;
+}
+table.address td span{
+  display:inline-block;
+}
+
+h1{
+ margin-bottom:0.25em;
+ line-height:1.1em;
+ padding-bottom:0.25em;
+ color:CornflowerBlue;
+ border-bottom:5px skyBlue solid;
+ text-align:center;
+}
+h1 span, h2 span, h3 span  {
+   display: inline-block;
+}
+h2 {
+ margin:0.25em 0;
+ padding-bottom:0.25em;
+ border-bottom:5px CornflowerBlue solid;
+}
+h4 {
+ margin:0.25em 0;
+ padding:0.25em 0.5em;
+ border-bottom:4px CornflowerBlue solid;
+	background-color:Beige;
+}
+
+
+p {
+	text-align: justify;
+	margin-bottom:1.5em;
+}
+p b {color:brown;}
+p.message {
+	text-align: justify;
+	margin:1.5em;
+}
+
+p.note{
+	font-size:0.8em;
+	line-height:1.1em;
+	padding:1em;
+	background-color:Cornsilk;
+	border-radius:.5em;
+}
+
+div.note{
+	padding:1em;
+	background-color:Cornsilk;
+	border-radius:.5em;
+}
+div.note h3 {
+	color:brown;
+	border-bottom:1px solid Coral;
+	text-align:center;
+}
+
+div.note ol{
+	padding-inline-start: 1em;
+	margin-top:1em;
+}
+div.note li{
+	margin-bottom:0.5em;
+}
+
+.SpreadLabels th.ColumnLabels {
+	width:9%  !important;
+	padding:0;
+	margin:0;
+  	font-size: .8em;
+}
+.SpreadLabels th.ColumnLabels span {
+  display : flex;
+	height:5em;
+  writing-mode:vertical-rl;
+  text-align:right;
+  align-items: center;
+}
+.ChoiceRow {
+	padding: 2px;
+	border-bottom:1px CornflowerBlue dotted;
+}
+
+tr:nth-child(even).ChoiceRow {
+	background: rgba(0,0,128,0.05);
+   padding:0.2em;
+}
+
+
+@media (max-width: 767px){
+	#SurveyEngineBody .Skin .Matrix .Bipolar td.AnswerRight,
+	#SurveyEngineBody .Skin .Matrix .Bipolar th.AnswerRight,
+	#SurveyEngineBody .Skin .Matrix .Bipolar td.AnswerLeft,
+	#SurveyEngineBody .Skin .Matrix .Bipolar th.AnswerLeft{
+		padding: 1em !important;
+     	min-height:6em;
+     	max-height:8.5em;
+		width:2.5em !important;
+		display : flex;
+		writing-mode:vertical-rl;
+		line-height:1em;
+		text-align:center !important;
+		align-items:center;
+	}
+	.WidthStrut{
+width:auto !important;
+	}
+	tr.ColumnLabelHeader .c1{
+		width:2em !important;
+	}
+	.Skin .Matrix .Bipolar tr.ChoiceRow td{
+		width: 9% !important;
+		padding:0.2em !important;
+	}
+  .Skin .RO .RB th, .Skin .SBSMatrix th, .Skin .Matrix th{
+ 	padding:0 !important;
+  }
+}
+#Plug{
+	display:none !important;
+}
